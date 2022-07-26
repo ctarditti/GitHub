@@ -1,0 +1,11 @@
+@import "base/variables";
+@import "components/header";
+@import "components/products";
+
+@import url(https://fonts.googleapis.com/css2?family=montserrat&display=swap);
+
+
+body {
+    background-color: rgb(121, 100, 79);
+    color: rgb(245, 241, 241);
+}

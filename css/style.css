@@ -1,72 +1,36 @@
-@import url(https://fonts.googleapis.com/css2?family=montserrat&display=swap); 
-
-body{
-    font-family: 'Montserrat' , sans-serif;
-    overflow-x: hidden;
-  
+/*variables*/
+@import url(https://fonts.googleapis.com/css2?family=montserrat&display=swap);
+.menu {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+.menu ul li {
+  list-style-type: none;
+  transition: 0.5s;
+}
+.menu ul li:hover {
+  transform: scale(1.2);
+}
+.menu ul li a {
+  text-align: center;
+  color: rgb(245, 239, 239);
+}
+text-decoration:none .menu ul li a:hover {
+  background-color: rgb(238, 18, 18);
 }
 
-/*Menu*/
-
-#menu a {
-    font-size: 18px;
-    font-weight: bold;
-    color: white;
+body {
+  background-color: rgb(121, 100, 79);
+  color: rgb(245, 241, 241);
 }
 
-#menu button {
-    font-size: 18px;
-    font-weight: bold;
-}
-
-/*Imagenes*/
-.carousel-inner{
-    max-height: 39rem;
-}
-
-/*Footer*/
-footer{
-    background-color: #4d5057;
-    min-height: 100px;
-}
-
-footer p, h2{
-    color: white;
-    text-align: center;
-}
-
-#iconos i{
-    font-size: 26px;
-    padding: 0 8px;
-    color: white;
-}
-
-
-/*Media queries pantalla grande*/
-
-
-/*Media queries pantalla mediana*/
-
-@media (max-width: 768px) {
-    #intro{
-        width:90%  !important;
-    }
-}
-
-/*Media queries pantalla chica*/
-
-/*Formulario de contacto*/
-
-.contenedorformulario{
-    position:absolute;
-    top:30%;
-    transform: translate(-50%, -50%);
-    background-color: white;
-    border-radius: 5px;
-    max-width: 500px;
-}
-
-#tituloformulario{
-    color:#3f3f3f;
-}
-
+/*# sourceMappingURL=style.css.map */
