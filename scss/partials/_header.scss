@@ -1,0 +1,28 @@
+.menu {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    li {
+      list-style-type:none;
+      transition: 0.5s;
+      &:hover {
+        transform: scale(1.2);
+      }
+      a {
+        text-align: center;
+        color: rgb(12, 12, 12);
+        &:hover {
+          color: brown;
+        }
+        
+      }
+    }
+  }
+}
